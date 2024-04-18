@@ -1,6 +1,18 @@
-p.TLDR {
-    background-color: #fed3f8;
+.TLDR {
+    background-color: #fff8fe;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 img {
-    /* image-orientation: 45deg; */
+    transform: rotate(-10deg);
+    position: relative;
+    margin-top: 30px;
+    margin-left: -300px;
+}
+div.contact {
+    position: relative;
+    margin-top: -150px;
+    margin-left: -300px;
+}
+div.phone {
+    position: fixed;
 }
