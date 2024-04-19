@@ -4,15 +4,17 @@
 }
 img {
     transform: rotate(-10deg);
-    position: relative;
+    position: fixed;
     margin-top: 30px;
     margin-left: -300px;
 }
-div.contact {
-    position: relative;
+.contact {
+    position: fixed;
     margin-top: -150px;
     margin-left: -300px;
 }
-div.phone {
+.phone {
     position: fixed;
+    margin-top: 250px;
+    margin-left: 30px; /* Adjust as needed */
 }
